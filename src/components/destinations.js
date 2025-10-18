@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 const Destinations = () => {
     return (
         <div className=' max-w-[1240px] mx-auto mt-14 md:mt-24'>

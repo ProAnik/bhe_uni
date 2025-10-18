@@ -7,6 +7,8 @@ import Story from "@/components/story";
 import Destinations from "@/components/destinations";
 import Service from "@/components/services";
 import Opportunity from '@/components/oppurtunity';
+import Join from '@/components/join';
+import Footer from '@/components/footer';
 
 
 export default function Home() {
@@ -21,6 +23,8 @@ export default function Home() {
     <Destinations></Destinations>
     <Service></Service>
     <Opportunity></Opportunity>
+    <Join></Join>
+    <Footer></Footer>
     </>
   );
 }
