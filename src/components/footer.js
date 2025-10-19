@@ -4,8 +4,8 @@ export default function Footer() {
     const year = new Date().getFullYear();
 
     return (
-        <footer className="bg-black w-full mt-14 md:mt-24">
-            <div className="max-w-[1240px] mx-auto pt-14 md:pt-24">
+        <footer className="bg-black w-full mt-14 md:mt-24 ">
+            <div className="max-w-[1240px] mx-auto pt-14 md:pt-24 px-5 md:px-0">
                 <div className="grid md:grid-cols-12 grid-cols-1 gap-5 w-full">
                     <div className="text-white col-span-3">
                         <div className="font-[Kanit] font-normal text-[14px] leading-[140%]">
@@ -145,7 +145,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className="bg-[#0F1017] w-full">
+            <div className="bg-[#0F1017] w-full px-5 md:px-0">
 
                 <div className="flex md:flex-row flex-col gap-4 pt-5 justify-center items-center font-[Kanit] font-semibold text-[20px] leading-[100%]">
                     <a className=" text-[#F37124]">London</a>

@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
     return (
         <header className="h-24 w-full bg-white shadow-[0px_5px_20px_0px_#0000000D]">
-            <div className='w-full max-w-[1240px] mx-auto flex items-center justify-between'>
+            <div className='px-5 md:px-5 w-full max-w-[1240px] mx-auto flex items-center justify-between'>
 
             <img className="py-6" src="assets/images/logo.svg" alt="Logo" />
             <nav className="h-full items-center gap-4 hidden lg:flex">

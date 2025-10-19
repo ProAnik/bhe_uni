@@ -2,9 +2,9 @@ import React from 'react';
 
 function Welcome() {
   return (
-    <div className="mt-14 md:mt-28">
+    <div className="mt-14 md:mt-28 px-5 md:px-0">
       <h1
-        className="flex justify-center bg-gradient-to-r from-[#2D7CF2] to-[#273B92] bg-clip-text text-transparent font-kanit font-semibold text-[56px] leading-[120%] tracking-[0%] text-center max-w-5xl mx-auto"
+        className="flex justify-center bg-gradient-to-r from-[#2D7CF2] to-[#273B92] bg-clip-text text-transparent font-kanit font-semibold text-[32px] md:text-[56px] leading-[120%] tracking-[0%] text-center max-w-5xl mx-auto"
       >
         University Admission Made Simple, Smart & Secure with BHE UNI
       </h1>

@@ -1,7 +1,7 @@
 const Service = () => (
     <>
-    <div className="max-w-[1240px] mx-auto mt-14 md:mt-24">
-        <h3 className="font-kanit font-semibold text-[40px] leading-[66px] tracking-[0px] text-[#263238] text-center">Our Services at a Glance</h3>
+    <div className="max-w-[1240px] mx-auto mt-14 md:mt-24 px-5 md:px-0">
+        <h3 className="font-kanit font-semibold text-[30px] text-[40px] md:leading-[66px] tracking-[0px] text-[#263238] text-center">Our Services at a Glance</h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-5">
             <div className="h-[247px] bg-[#EBF1FF] w-full rounded-[24px] flex items-center flex-col justify-center gap-4">
                 <img src="/assets/images/icon/uni_course.svg"/>

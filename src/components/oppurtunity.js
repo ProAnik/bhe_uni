@@ -4,8 +4,8 @@ import Image from 'next/image';
 const Opportunity = () => {
     return (
         <>
-        <div className='max-w-[1240px] mx-auto mt-14 md:mt-24'>
-            <h3 className="font-kanit font-semibold text-[40px] leading-[66px] tracking-[0px] text-[#263238]">Student Opportunities</h3>
+        <div className='max-w-[1240px] mx-auto mt-14 md:mt-24 px-5 md:px-0'>
+            <h3 className="font-kanit font-semibold text-[30px] text-[40px] md:leading-[66px] tracking-[0px] text-[#263238]">Student Opportunities</h3>
             <div className='flex flex-col md:flex-row md:flex gap-4 mt-5'>
                 <div className='h-[400px] w-full rounded-[16px] relative overflow-hidden'>
                     <Image fill alt="image" src="/assets/images/backgrounds/stu1.png" className='w-full rounded-[16px] overflow-hidden' />

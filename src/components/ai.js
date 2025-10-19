@@ -2,8 +2,8 @@ import React from 'react';
 
 const AI = () => {
     return (
-        <div className='mt-14 md:mt-28'>
-            <h2 className='font-kanit font-semibold text-[40px] leading-[1.3] tracking-normal text-center text-[#263238]'>AI-Powered Matching Engine</h2>
+        <div className='mt-14 md:mt-28 px-5 md:px-0'>
+            <h2 className='font-kanit font-semibold text-[30px] md:text-[40px] leading-[1.3] tracking-normal text-center text-[#263238]'>AI-Powered Matching Engine</h2>
             <div className="backdrop-blur-[691px] shadow-[0px_10px_40px_0px_#0000001A] rounded-[16px]  mt-5 max-w-[1240px] mx-auto bg-[url('/assets/images/backgrounds/user_bg.png')] bg-cover bg-center">
                 <div className='pt-3 mx-4'>
                     <div className='font-kanit font-medium text-xl leading-[1] tracking-normal capitalize text-[#263238]'>

@@ -2,8 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 const Destinations = () => {
     return (
-        <div className=' max-w-[1240px] mx-auto mt-14 md:mt-24'>
-            <h2 className="font-kanit font-semibold text-[40px] leading-[66px] tracking-[0.5px]">Featured Destinations</h2>
+        <div className='max-w-[1240px] mx-auto mt-14 md:mt-24 px-5 md:px-0'>
+            <h2 className="font-kanit font-semibold text-[30px] md:text-[40px] leading-[66px] tracking-[0.5px]">Featured Destinations</h2>
             <div className='flex flex-col md:flex md:flex-row justify-between mt-5 gap-4'>
                 <div className='bg-[#F5F7F9] h-[362px] w-full shadow-[0px_5px_30px_0px_rgba(0,0,0,0.15)] rounded-[16px] flex flex-col justify-between'>
                     <div className='pt-4 px-5 '>
