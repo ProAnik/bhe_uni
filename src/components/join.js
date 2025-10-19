@@ -2,7 +2,7 @@ import Image from 'next/image';
 const Join = () => {
     return (
         <div className="px-5 md:px-0 max-w-[1240px] mx-auto mt-[-50px] md:mt-[-100px] shadow-[0px_5px_60px_0px_#0000001A] bg-white pb-10 rounded-[24px]">
-            <h2 className="pt-7 text-center font-kanit font-semibold text-[30px] text-[40px] leading-[130%] tracking-[0px]">Join as a Student or Agent</h2>
+            <h2 className="pt-7 text-center font-kanit font-semibold text-[30px] md:text-[40px] leading-[130%] tracking-[0px]">Join as a Student or Agent</h2>
             <div className="font-[Kanit] font-normal text-[16px] leading-[24px] tracking-[0px] text-center text-[#6B7588]">Choose your path and unlock opportunities for growth and success</div>
 
             <div className="flex flex-col md:flex-row gap-8 mt-10 justify-center">
